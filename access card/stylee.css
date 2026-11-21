@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin: auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+.company-logo {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.employee-photo {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 25px;
+    background-color: transparent;
+    
+    
+}
+
+.employee-photo img {
+    width: 150px;
+    height: 180px;
+    display: block;
+    border-radius: 5px;
+    border: 2px solid #832323;
+    object-fit: cover;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+h3 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+p{
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 13px;
+    background-color: transparent;
+}
+.card-footer {
+   
+    height: 18px;
+    background-color: #a94b55;
+    margin: 25px -20px 0;
+}
